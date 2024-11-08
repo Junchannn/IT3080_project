@@ -11,8 +11,8 @@ TODO!!
 ## Cài đặt (Install & Config)
 1. Tải repository
 ```
-git clone https://github.com/vepiot/Quan-Ly-Thu-Phi-Dong-Gop.git
-cd Quan-Ly-Thu-Phi-Dong-Gop
+git clone https://github.com/Junchannn/IT3080_project.git
+cd IT3080_project
 ```
 2. Cài đặt thư viện Django
 ```
@@ -36,13 +36,10 @@ Người dùng có thể tự tạo tài khoản ở phần Đăng ký (nhập c
 
 ![](images/wait.png)
 
-4. Tài khoản ADMIN (Đăng nhặp tại [ADMIN](https://projectnmcnpm-soict.glitch.me/admin)):
+
 ```
 username: admin
 password: admin@12345 (mật khẩu mặc định cho các tài khoản user)
 ```
 
-![](images/news.png)
 
-## Liên hệ (Contact)
-Dinh Thai Son: sondinh99999@gmail.com (Trưởng nhóm)
