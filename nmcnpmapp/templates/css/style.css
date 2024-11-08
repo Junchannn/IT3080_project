@@ -1,0 +1,149 @@
+/* Đặt font chung và chỉnh margin, padding cho toàn trang */
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Thanh điều hướng */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+.navbar .btn {
+    color: #007bff;
+    background-color: #ffffff;
+    border: none;
+}
+
+.navbar .btn:hover {
+    color: #ffffff;
+    background-color: #0056b3;
+}
+
+/* Phần Giới thiệu */
+.container h2 {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+/* Phần Tin tức */
+h3 {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.list-group-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f1f8ff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.list-group-item p {
+    color: #666666;
+    font-size: 15px;
+}
+
+/* Button đăng nhập, đăng ký */
+.navbar .btn-outline-primary,
+.navbar .btn-outline-success {
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.navbar .btn-outline-primary {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.navbar .btn-outline-primary:hover {
+    color: #007bff;
+    background-color: #ffffff;
+}
+
+.navbar .btn-outline-success {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.navbar .btn-outline-success:hover {
+    color: #28a745;
+    background-color: #ffffff;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+    .navbar .btn {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    
+    .list-group-item h5 {
+        font-size: 16px;
+    }
+
+    .list-group-item p {
+        font-size: 14px;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content {
+    flex: 1;
+}
+
+.footer {
+    background-color: #6c757d; /* Màu nền xám */
+    color: white; /* Chữ trắng */
+    padding: 20px 0; /* Khoảng cách trên dưới */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
